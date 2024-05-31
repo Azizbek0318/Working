@@ -1,0 +1,58 @@
+  /* darkPurple: 'hsl(273, 85%, 13%)',
+  lightPurple: 'hsl(271, 12%, 34%)',
+  veryLightPurple: 'hsl(276, 100%, 99%)',
+  white: 'hsl(0, 0%, 100%)',
+  green: 'hsl(150, 100%, 63%)' */
+body{
+  padding: 0;
+  margin: 0 auto;
+}
+
+header{
+  background-color: hsl(273, 85%, 13%);
+  border-radius: 0 0 10% 10%;
+  position: relative;
+}
+nav{
+  padding: 40px 60px;
+}
+nav img{
+  float: left;
+}
+nav a{
+  float: right;
+  color: white;
+  text-decoration: underline hsl(150, 100%, 63%);
+}
+.main{
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  margin: 50px 200px;
+  padding-bottom: 300px;
+}
+.main button{
+  background-color:hsl(150, 100%, 63%);
+  padding: 20px;
+}
+.main h1{
+  font-size: 2.5rem;
+}
+.main span{
+  text-decoration: underline hsl(150, 100%, 63%);
+}
+.main img{
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.bg1{
+  position: absolute;
+  top: 10%;
+}
+.bg2{
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
